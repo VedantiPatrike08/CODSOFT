@@ -1,0 +1,106 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-image: url("Background Images/bgg2.jpg");
+background-size: cover;
+}
+
+.menu-categories {
+display: flex;
+justify-content: center;
+margin-top: 290px;
+}
+
+.category {
+margin: 0 20px;
+text-align: center;
+cursor: pointer;
+transition: transform 0.3s ease-in-out;
+color: inherit;
+text-decoration: none; 
+}
+
+.category img {
+width: 150px;
+height: 150px;
+object-fit: cover;
+border-radius: 50%;
+margin-bottom: 10px;
+}
+
+.category span {
+    font-family: cursive;
+font-size: 20px;
+font-weight: bolder;
+color: rgb(170, 124, 124);
+
+}
+
+.category:hover {
+transform: scale(1.1);
+}
+
+.menu-items {
+max-width: 600px;
+margin: 20px auto;
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+display: none;
+}
+
+.menu-items ul {
+list-style-type: none;
+padding: 0;
+}
+
+.menu-items li {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+/* Show menu items when respective category is hovered */
+#breakfast:hover ~ .menu-items #breakfast-items,
+#lunch:hover ~ .menu-items #lunch-items,
+#dinner:hover ~ .menu-items #dinner-items {
+display: block;
+}
+
+.back-button {
+    
+/* background-color: #a143d7; */
+color: rgb(170, 124, 124);
+border: none;
+border-radius: 20px;
+/* padding: 15px 20px; */
+/* font-size: 16px; */
+text-decoration: none;
+/* display: inline-block; */
+cursor: pointer;
+transition: background-color 0.3s ease;
+/* margin-top: 5000px;   */
+/* padding-left: 50px; */
+/* padding-right: 50px; */
+/* margin-left: 690px;     */
+display: flex;
+justify-content: center;
+margin-left: 500px;
+margin-right: 500px;
+
+
+background-image: url("Background Images/bgg2.jpg");
+/* background-image: linear-gradient(to bottom, rgba(80, 81, 80, 0.7), rgba(186, 183, 183, 0.7)); */
+font-family: cursive;
+border-radius: 7px;
+padding: 7px;
+border-color: transparent;
+/* text-align: center; */
+/* display: block; */
+/* margin: 0 auto;  */
+}
+
+.back-button:hover {
+background-image: url("Background Images/background6.webp");
+}

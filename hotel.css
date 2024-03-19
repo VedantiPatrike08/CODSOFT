@@ -1,0 +1,299 @@
+body{
+    background-color: black;
+   
+}
+html{
+    scroll-behavior: smooth; 
+}
+
+
+/* -------------------- LOGO ----------------- */
+/* .image-logo{
+    
+    display: flex;
+    justify-content: center;
+    border: none;
+    box-shadow: none;
+    background-color: black;
+} */
+
+
+ /* ********************* NAV BAR ************************** */
+
+ .navbar{
+    list-style: none;
+    position: fixed;
+    overflow: hidden;
+
+    background-image: linear-gradient(to bottom, rgba(70, 3, 70, 0.7), rgba(30, 2, 47, 0.7));
+
+    background-size: cover;
+    background-position: center;
+
+    
+
+  }
+
+  .navbar li{
+    display: inline;
+    
+    margin-right: 70px;
+    padding-left: 90px;
+    margin-left: 0px;
+    text-decoration: none;
+
+
+  }
+
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* --------------------------------------- HOME ---------------------------------------- */
+
+#home{
+    /* width: 100%; 
+    height: 100%;  */
+    background-image: -webkit-linear-gradient(150deg, #1f2b36 50%, rgba(30, 2, 47, 0.7) 50%);
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-text {
+    margin-right: 20px;
+    margin-left: 300px;
+}
+
+.signup-box {
+    background-color:  rgba(30, 2, 47, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 200px;
+    margin-top: 60px;
+}
+
+.signup-box h3 {
+    margin-top: 0; 
+}
+
+.signup-box form {
+    margin-top: 20px; 
+}
+
+.signup-box input {
+    width: 100%;
+    margin-bottom: 10px;  
+    border-color:  rgba(179, 119, 216, 0.7);  
+    border-radius: 4px;
+}
+p {
+    text-align: center;
+}
+button:hover {
+    background-color: #42054b;
+}
+
+
+.signin-text{
+    text-decoration: none;
+    color: inherit;
+}
+
+.signin-text:hover {
+    text-decoration: underline;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+/* **************************** BACKGROUND IMG*********************************** */
+
+.Aboutus{
+    
+    background-size: cover;
+    background-image: url("Background Images/bg5.jpeg.jpg");
+    opacity: 1;
+
+}
+
+
+.Contactus{
+    background-image: url("Background Images/bg7.jpeg.jpg");
+    background-size: cover;
+    opacity: 1;
+
+
+}
+
+
+.menu-bg{
+    background-image: url("Background Images/bg3.jpeg.jpg");
+    opacity: 1;
+
+}
+
+
+/* *********************************** */
+
+.menu-bg a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    
+}
+/* *********** BUTTON ********************** */
+button{
+    background-image: linear-gradient(to bottom, rgba(37, 3, 37, 0.7), rgba(204, 153, 235, 0.7));
+    font-family: cursive;
+    border-radius: 7px;
+    padding: 7px;
+    border-color: transparent;
+
+    display: block;
+    margin: 0 auto;          /* move at centre */
+
+}
+
+/* ****************************** PARAGRAPH ARRANGEMENTS ******************************** */
+
+.menu-container {
+    box-sizing: content-box;
+    padding: 5px 60px;
+    margin: 10px;
+    
+}
+.aboutus-container {
+    box-sizing: content-box;
+    padding: 5px 60px;
+    margin: 10px;
+    
+}
+.contact-container{
+    box-sizing: content-box;
+    padding: 5px 60px;
+    margin: 10px;
+    
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+    position: relative;
+    /* padding-top: 30px; */
+    background-color: transparent;
+    color: rgb(195, 210, 224);
+    font-family: 'Fasthand',cursive;
+    
+    
+}
+h2{
+    text-align: center;
+    font-size:xx-large;
+    position: relative;
+    /* padding-top: 30px; */
+    background-color: transparent;
+    color: aliceblue ;
+    font-family: 'Fasthand',cursive;
+
+}
+
+
+
+
+
+/* ========================================================= */
+
+input{
+    /* color: black; */
+    /* border: solid; */
+    background-color:azure;
+    padding: 4px;
+    /* margin-left: 20px; */
+    background: transparent;
+    color: antiquewhite;
+    font-size: large;
+}
+
+
+marquee{
+    color:rgb(106, 30, 136);
+    font-size: large;
+    font-weight: 1000;
+    padding-top: 90px;
+    
+}
+
+.Aboutus{
+    color: aliceblue;
+    padding-top: 15px;
+}
+.heading{
+    padding-top: 70px;
+}
+
+.Contactus{
+    color: aliceblue;
+}
+.linkedin-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*======================== Responsive=========================*/ 
+
+
+/* @media screen and (min-width:320px) and (max-width:430px) {
+   .heading{
+    padding-top: 0%;
+
+   }
+
+   nav{
+    height: 15%;
+
+   }
+}
+
+@media screen and (min-width: 431px ) and (min-width:704px){
+
+    .heading{
+        padding-top: 0px;
+    }
+
+    nav{
+        text-align: center;
+      
+} */
+
+/* @media screen and (max-width: 767px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .heading {
+        padding-top: 0;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+} */
+
+/* ----------------- */
