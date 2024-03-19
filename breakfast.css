@@ -41,16 +41,16 @@ body {
     color: white;
     border: none;
     border-radius: 20px;
-    padding: 15px 20px;
+    padding: 15px 40px;
     font-size: 16px;
     text-decoration: none;
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: auto; 
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: 690px;           
+    text-align: center;
+    width: fit-content; 
+                     
 }
 
 .back-button:hover {
